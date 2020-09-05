@@ -1,0 +1,69 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.header #encabezado{
+background-color: #EAC926;  
+}
+a {
+  color: #00B7FF;
+}
+img{
+  width: 100%;
+}
+h1{
+  font-size: 30px;
+}
+.basado{
+background-color:#ebebeb;
+}
+#Descripcion {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+#Titulares {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+h1#Ofertas{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  
+}
+#Precios {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #39b54a;  
+}
+
+#Descuentos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+#Descripciones {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+article{
+  border: 1px;
+}
+p article{
+  font-size: 12px;
+}
+.i .fas .fa-gift{
+  color: #39b54a;
+}
+.i .far .fa-credit-card{
+  color: #1259c3;
+}
+
+
+/*ColoresCliente para usar*/
+/*Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;/*
