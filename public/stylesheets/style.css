@@ -52,10 +52,14 @@ article{
 p article{
   font-size: 12px;
 }
-.i .fas .fa-gift{
+i.fas.fa-gift{
+  color: #39b54a;
+  
+}
+i.fas.fa-truck{
   color: #39b54a;
 }
-.i .far .fa-credit-card{
+i.far.fa-credit-card{
   color: #1259c3;
 }
 
