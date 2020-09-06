@@ -1,3 +1,68 @@
+*{
+  box-sizing: content-box;
+  ;
+}
+.header{
+background-color: #EAC926;  
+}
+
+a {
+  color: #00B7FF;
+}
+img{
+  width: 100%;
+}
+.basado{
+background-color:#ebebeb;
+}
+#Descripcion {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+#Titulares {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+h1#Ofertas{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  
+}
+#Precios {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #39b54a;  
+}
+
+#Descuentos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+#Descripciones {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+article{
+  border: 1px;
+}
+p article{
+  font-size: 12px;
+}
+i.fas.fa-gift{
+  color: #1259c3;
+  }
+i.fas.fa-truck{
+  color: #39b54a;
+}
+i.far.fa-credit-card{
+  color: #1259c3;
+}
+i.fas.fa-user-shield{
+  color: #1259c3;
+}
 body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -46,28 +111,83 @@ h1#Ofertas{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
-article{
-  border: 1px;
-}
-p article{
-  font-size: 12px;
-}
-i.fas.fa-gift{
-  color: #39b54a;
-  
-}
-i.fas.fa-truck{
+.i .fas .fa-gift{
   color: #39b54a;
 }
-i.far.fa-credit-card{
+.i .far .fa-credit-card{
   color: #1259c3;
 }
 
 
+
 /*ColoresCliente para usar*/
-/*Amarillo: #EAC926;
+/*
+Amarillo: #EAC926;
 Azul: #03264C;
 Celeste: #1259c3;
 Gris oscuro: #666;
 Gris claro: #ebebeb;
-Verde: #39b54a;/*
+Verde: #39b54a;
+*/
+
+/* estilos header */
+/*
+#header {
+
+}
+
+#header .logo {
+
+}
+
+#header .buscador {
+
+}
+
+div#header.btnLogin {
+
+}
+
+@media (max-width: 600px) {
+  #productList {
+    background: blue;
+  }
+
+  #productList .product {
+    width: 100%;
+  }
+}
+
+/* fin estilos header */
+
+
+/* estilos productlist */
+/*
+#productList {
+  width: 100%;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#producList .product {
+  background: blue;
+  width: calc(100% / 4);
+}
+
+/* @media (max-width: 600px) {
+  #productList {
+    background: blue;
+  }
+
+  #productList .product {
+    width: 100%;
+  }
+} */
+/* 
+@media (max-width: 800px) {
+  
+} */
+/* estilos productlist */
