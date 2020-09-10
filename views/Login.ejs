@@ -1,33 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <title>Document</title>
+    <title>Login</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/styleslimpio.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
+
 <body>
-    <header class="header">
-		<!--ENCABEZADO-->
-		<div id="encabezado"><a href="#"> <img src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
-			<input type="text" name="busqueda" placeholder="Buscar productos, marcas y mas"><i
-				class="fas fa-search"></i>
-			<h2>Comprá en cuotas y sin tarjeta de crédito</h2>
-			<ul>
-				<li><a href="#Ofertas">Ofertas</a></li>
-				<li><a href="/Tiendas">Tiendas Oficiales</a></li>
-				<li><a href="/Vender">Vender</a></li>
-				<li><a href="/Ayuda">Ayuda</a></li>
-				<br>
-				<li><a href="/Registro">Creá tu cuenta</a></li>
-				<li><a href="/Loguin">Ingresá</a></li>
-				<li><a href="/miscompras">Mis Compras</a></li>
-			</ul>
-			<section id="seccion-banner">
-				<img class="Header" src="/images/img-home-banner.jpg" alt="Header">
-			</section>
-		</div>
-	</header>
-    
+    <header>
+        <div class="logo">
+
+            <a href="#"> <img src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
+
+            <div class="lupita">
+                <form action="">
+                    <input type="text" name="busqueda" placeholder="Buscar productos, marcas y mas">
+                </form>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="subtitulo">
+            <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div>
+
+
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Creá tu cuenta</a></li>
+                <li><a href="/login">Ingresá</a></li>
+                <li><a href="#">Mis Compras</a></li>
+            </ul>
+            <div class="b-menu"><i class="fas fa-bars"></i></div>
+
+        </nav>
+
+
+    </header>
+    <main>
+        <div class="inputform">
+            <form action="index.html " method="GET "></form>
+            <label for="nombreUsuario "></label></p>
+            <input type="text " id="nombreUsuario" name="nombreUsuario" class="button" placeholder="Nombre de Usuario">
+        </div>
+        <div class="inputform">
+            <form action="index.html " method="GET "></form>
+            <label for="contrasenia "></label>
+            <input type="password" id="contrasenia" name="contrasenia " class="button" placeholder="Elegí tu contraseña ">
+        </div>
+        <button type="submit" class="b-login">Enviar</button>
+    </main>
+
+    <footer>
+        <section class="mainFooter">
+            <article>
+                <i class="far fa-credit-card"></i>
+                <p class="textoGral">Pagá con tarjeta o en efectivo</p>
+                <p class="textoGral"> Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+
+            </article>
+            <article>
+                <i class="fas fa-gift"></i>
+                <p class="textoGral">Envío gratis desde los $ 2.500</p>
+                <p class="textoGral">Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+            </article>
+
+            <article>
+                <i class="fas fa-user-shield"></i>
+                <p class="textoGral">Seguridad, de principio a fin</p>
+                <p class="textoGral">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@.</p>
+            </article>
+            <p class="textoGral">Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+    </footer>
 </body>
+
+</html>
+</body>
+
 </html>

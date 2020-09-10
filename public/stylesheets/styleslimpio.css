@@ -1,0 +1,239 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #ebebeb;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    /* Tipografías  - Estilos */
+    
+    .titulares {
+        margin-top: 20px;
+        margin-bottom: px;
+        font-size: 24px;
+    }
+    
+    .precios {
+        font-size: 18px;
+    }
+    
+    .textoGral {
+        font-size: 16px;
+    }
+    /* Iconos */
+    
+    i.fas.fa-truck {
+        color: #39b54a;
+        position: absolute;
+    }
+    
+    i.fas.fa-gift {
+        color: #1259c3;
+        font-size: 25px;
+    }
+    
+    i.far.fa-credit-card {
+        color: #1259c3;
+        font-size: 25px;
+    }
+    
+    i.fas.fa-user-shield {
+        color: #1259c3;
+        font-size: 25px;
+    }
+    
+    i.fas.fa-bars {
+        height: 40px;
+        width: 40px;
+        background-color: #0044AA;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    i.fas.fa-bars:hover {
+        background-color: #0022AA;
+    }
+    /* Header */
+    
+    header {
+        background-color: #EAC926;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    
+    header.logo {
+        max-width: 200px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo img {
+        width: 50%;
+    }
+    
+    .logo .subtitulo h2 {
+        font-size: 16px;
+    }
+    
+    .logo.lupita {
+        position: relative;
+        margin: 25px 10px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .lupita i {
+        position: absolute;
+    }
+    
+    .subtitulo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-nav ul {
+        display: none;
+    }
+    
+    .banner img {
+        width: 100%;
+    }
+    /* Cuerpo Principal - MAIN */
+    /* main {
+        width: 90%;
+        margin: 20px auto;
+    }
+     */
+    
+    .product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+        line-height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .productlist {
+        /* width: 100%; */
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .product img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .basadoultimascompras.titulares {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    /* Footer */
+    
+    .mainFooter {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 5%;
+        line-height: 25px;
+        background-color: white;
+    }
+    
+    .mainFooter article {
+        margin: 20px auto;
+        background-color: white;
+    }
+    /* Individuales register */
+    
+    .b-send {
+        padding: 10px;
+        margin: 10px;
+    }
+    /* Login | Register */
+    
+    .b-login {
+        width: 100%;
+        background-color: #0044AA;
+        color: white;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    
+    .b-login:hover {
+        background-color: #0022AA;
+        transition: 0.5s;
+    }
+    
+    .button {
+        width: 100%;
+        margin: 20px auto;
+        border: none;
+        padding: 7px;
+    }
+    
+    .intereses-button {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    /* MediaQuery*/
+    
+    @media (min-width: 426px) {
+        .product {
+            width: 40%;
+            margin-left: 5%;
+            margin-right: 5%;
+            float: left;
+        }
+    }
+    
+    .productList {
+        overflow: hidden;
+    }
+    
+    .mainFooter {
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        /* display: flex;
+        flex-direction: row; */
+    }
+    
+    footer {
+        overflow: hidden;
+    }
+    
+    @media (min-width: 769px) {
+        .product {
+            width: 16%;
+            margin-left: 3%;
+            margin-right: 3%;
+            float: left;
+        }
+    }
+    
+    .productList {
+        overflow: hidden;
+    }

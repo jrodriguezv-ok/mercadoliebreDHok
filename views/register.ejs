@@ -1,104 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<link rel='stylesheet' href='/stylesheets/style.css' />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
-    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/styleslimpio.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <!--ENCABEZADO-->
-        <div id="encabezado"><a href="#"> <img src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
-            <input type="text" name="busqueda" placeholder="Buscar productos, marcas y mas"><i
-                class="fas fa-search"></i>
-            <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
-            <ul>
-                <li><a href="#Ofertas">Ofertas</a></li>
-                <li><a href="/Tiendas">Tiendas Oficiales</a></li>
-                <li><a href="/Vender">Vender</a></li>
-                <li><a href="/Ayuda">Ayuda</a></li>
-                <br>
-                <li><a href="/Registro">Creá tu cuenta</a></li>
-                <li><a href="/Loguin">Ingresá</a></li>
-                <li><a href="/miscompras">Mis Compras</a></li>
-            </ul>
-            <section id="seccion-banner">
-                <img class="Header" src="/images/img-home-banner.jpg" alt="Header">
-            </section>
+    <header>
+        <div class="logo">
+
+            <a href="#"> <img src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
+
+            <div class="lupita">
+                <form action="">
+                    <input type="text" name="busqueda" placeholder="Buscar productos, marcas y mas">
+                </form>
+                <i class="fas fa-search"></i>
+            </div>
         </div>
+
+        <div class="subtitulo">
+            <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div>
+
+
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Creá tu cuenta</a></li>
+                <li><a href="/login">Ingresá</a></li>
+                <li><a href="#">Mis Compras</a></li>
+            </ul>
+            <div class="b-menu"><i class="fas fa-bars"></i></div>
+
+        </nav>
+
+
     </header>
     <main>
         <div>
-            <form action="index.html" method="GET"></form>
-            <p><label for="nombreyapellido">Nombre y Apellido</label></p>
-            <p><input type="text" id="nombreyapellido" name="nombreyapellido"></p>
+            <form action="index.html " method="GET "></form>
+            <label for="nombreyapellido "></label></p>
+            <input type="text " id="nombreyapellido " name="nombreyapellido " class="button" placeholder="Nombre y apellido "></p>
         </div>
         <div>
-            <form action="index.html" method="GET"></form>
-            <p><label for="nombreusuario">Nombre de Usuario</label></p>
-            <p><input type="text" id="nombreusuario" name="nombreusuario"></p>
+            <form action="index.html " method="GET "></form>
+            <label for="nombreusuario "></label>
+            <input type="text " id="nombreusuario " name="nombreusuario " class="button" placeholder="Nombre de Usuario ">
         </div>
         <div>
-            <form action="index.html" method="GET"></form>
-            <p><label for="email">Email</label></p>
-            <p><input type="email" id="email" name="email"></p>
+            <form action="index.html" method="GET">Fecha de Nacimiento</form>
+            <label for="fechaNacimiento"></label>
+            <input type="date" id="fechaNacimiento" class="button">
         </div>
         <div>
-            <p><label for="">Perfil del Usuario</label></p>
-            <p><input type="radio" name="perfil" value="comprador" checked>Comprador</p>
-            <p><input type="radio" name="perfil" value="vendedor">Vendedor</p>
+            <form action="index.html " method="GET "></form>
+            <p><label for="email "></label></p>
+            <p><input type="email " id="email " name="email " class="button" placeholder="Email "></p>
         </div>
         <div>
-            <p><label for="">Intereses</label></p>
-            <input type="checkbox" name="intereses" id="electro"> Electro <br>
-            <input type="checkbox" name="intereses" id="moda"> Moda <br>
-            <input type="checkbox" name="intereses" id="hogar"> Hogar <br>
-            <input type="checkbox" name="intereses" id="juguetería">Juguetería <br>
-            <input type="checkbox" name="intereses" id="vidasana"> Vida Sana <br>
-        </div>
-        <div>
-            <p><button type="submit">Enviar</button></p>
-            <p><button type="reset">Borrar</button></p>
-        </div>
+            <p class="textoGral"><label for=" ">Perfil del Usuario</label></p>
+            <label><input type="radio" name="vendedor" value="vendedor">Vendedor</label>
+            <label><input type="radio" name="comprador" value="comprador">Comprador</label>
 
+        </div>
+        <div class="intereses-button">
+            <label for=" " class="textoGral">Intereses</label></p>
+            <label><input type="checkbox" name="intereses " id="electro "> Electro</label>
+            <label><input type="checkbox" name="intereses " id="moda "> Moda </label>
+            <label><input type="checkbox" name="intereses " id="hogar "> Hogar </label>
+            <label><input type="checkbox" name="intereses " id="juguetería ">Juguetería</label>
+            <label><input type="checkbox" name="intereses " id="vidasana "> Vida Sana </label>
+        </div>
+        <div class="button">
+            <button type="submit ">Enviar</button>
+            <button type="reset ">Borrar</button>
+        </div>
     </main>
-    <footer>
+
+    <footer class="footer ">
         <section>
             <article>
-                <i class="far fa-credit-card"></i>
-                <p id="Descripcion">Pagá con tarjeta o en efectivo</p>
+                <i class="far fa-credit-card "></i>
+                <p class="textoGral ">Pagá con tarjeta o en efectivo</p>
                 <br>
-                <p> Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de
-                    pago. ¡Y siempre es seguro!</p>
+                <p> Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
                 <br>
             </article>
             <article>
-                <i class="fas fa-gift"></i>
+                <i class="fas fa-gift "></i>
                 <br>
-                <p id="Descripcion">Envío gratis desde los $ 2.500</p>
+                <p class="textoGral ">Envío gratis desde los $ 2.500</p>
                 <br>
-                <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
-                    productos. Es un beneficio de MercadoPuntos.</p>
+                <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
             </article>
             <br>
             <article>
-                <i class="fas fa-user-shield"></i>
+                <i class="fas fa-user-shield "></i>
                 <br>
-                <p id="Descripcion">Seguridad, de principio a fin</p>
+                <p class="textoGral ">Seguridad, de principio a fin</p>
                 <br>
-                <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
-                    porque estás siempre protegid@.</p>
+                <p class="textoGral ">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@.</p>
                 <br>
             </article>
             <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
     </footer>
-
 </body>
 
 </html>
